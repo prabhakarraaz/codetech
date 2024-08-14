@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="ri-map-pin-user-fill"></i>
+            <input type="text" placeholder="enter your location">
+            <button class="ri-search-line"></button>
+        </div>
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="https://purepng.com/public/uploads/large/purepng.com-weather-icon-ios-7symbolsiconsapple-iosiosios-7-iconsios-7-721522596694capb5.png" alt="">
+                        <p class="temperature">0<span>℃</span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="ri-tailwind-css-fill"></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="ri-windy-line"></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0Km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
